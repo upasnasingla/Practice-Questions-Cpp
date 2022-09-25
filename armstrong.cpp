@@ -1,0 +1,1 @@
+//checking armstrong in array
