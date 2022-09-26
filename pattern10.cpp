@@ -8,7 +8,7 @@ int main(){
 			cout<<" ";
 		}		
 		for(int j=1;j<=i;j++){
-			cout<<"*";
+			cout<<"$";
 		}
 		
 		for(int spaces=1;spaces<=n-i;spaces++){
