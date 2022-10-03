@@ -1,0 +1,30 @@
+//linear search
+#include <iostream>
+using namespace std;
+int main(){
+	int size;
+	cout<<"Enter size: ";
+	cin>>size;
+	int Arr[size];
+	cout<<"Enter elements: ";
+	for(int i =0;i<size;i++){
+		cin>>Arr[i];
+	}
+	int no,position;
+	cout<<"Enter no to search: ";
+	cin>>no;
+	for(int i=0;i<size;i++){
+		if(no==Arr[i]){
+			position=i+1;
+			break;
+			
+		}
+		
+		
+		
+	}
+	cout<<no<<"found at "<<position;
+	return 0;
+	
+	
+}
