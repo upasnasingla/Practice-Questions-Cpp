@@ -1,0 +1,22 @@
+//Average and sum of arrays
+#include<iostream>
+using namespace std;
+int main(){
+	string name;
+	getline(cin,name);
+	int arr[4];
+	int avg,sum;
+    sum=0;
+	for(int i=0;i<4;i++){
+		cin>>arr[i];
+	
+	}
+	for(int i=0;i<4;i++){
+		sum=sum+arr[i];
+		
+	}
+	avg=sum/4;
+	cout<<avg<<endl<<name;
+	
+	
+}
