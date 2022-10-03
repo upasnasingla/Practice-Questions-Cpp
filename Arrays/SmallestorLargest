@@ -1,0 +1,17 @@
+//Find` smallest or largest in array
+#include<iostream>
+using namespace std;
+int main(){
+	int  arr[5]={1,5,8,10,6};
+	int i;
+	int smallest,largest=arr[i];
+	for( i=0;i<5;i++){
+		if(smallest>arr[i]){
+			smallest=arr[i];
+		}
+		if(largest<arr[i]){
+			largest=arr[i];
+		}
+	}
+	cout<<smallest<<endl<<largest;
+}
